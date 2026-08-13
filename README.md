@@ -30,14 +30,14 @@ An automated, high-performance Python utility built with **Selenium** for bulk-m
 
 ### Overview
 
-Instagram’s native application and web interface lack bulk-management tools for saved collections. Users who systematically bookmark posts, reels, or guides over extended periods eventually accumulate hundreds—or thousands—of saved items without a native way to bulk-select or mass-unsave them. Manually removing items through the standard interface requires opening each post individually and clicking through modal overlays, making large-scale collection cleanup extremely tedious.
+Instagram’s native application and web interface lack bulk-management tools for saved collections. Users who systematically bookmark posts, reels, or guides over extended periods eventually accumulate hundreds, or thousands of saved items without a native way to bulk-select or mass-unsave them. Manually removing items through the standard interface requires opening each post individually and clicking through modal overlays, making large-scale collection cleanup extremely tedious.
 
 **Instagram Unsaver** resolves this bottleneck by automating the unsaving process inside an authentic browser session. Powered by Python and Selenium, it provides two distinct execution strategies depending on your speed requirements, collection size, and preference for visual inspection.
 
 ### Key Features
 
 - **Dual Engine Architecture:** Choose between a DOM-simulated UI clicker (**V1**) and an ultra-fast background API interceptor (**V2**).
-- **Offline Shortcode Resolution (V2):** Utilizes Base64 mathematical decoding to convert Instagram shortcodes (e.g., `DaPHXMZDUlI`) directly into internal numeric `Media ID`s offline—eliminating third-party metadata scrapers and extra network lookup requests.
+- **Offline Shortcode Resolution (V2):** Utilizes Base64 mathematical decoding to convert Instagram shortcodes (e.g., `DaPHXMZDUlI`) directly into internal numeric `Media ID`s offline, eliminating third-party metadata scrapers and extra network lookup requests.
 - **Session-Authenticated Security:** Operates strictly within an active, human-authenticated Chrome session. It utilizes live cookies and CSRF tokens directly from your browser, eliminating the need to store passwords, API keys, or access tokens in plain text.
 - **Adaptive Rate Limiting & Safety:** Built-in micro-delays, batch limits, and scheduled cooldown pauses help prevent trigger-happy execution and mitigate Instagram rate-limit blocks (`429 Too Many Requests`), as well as prevent your account from being temporarily suspended.
 - **Infinite Scroll Harvesting:** Dynamically scrolls the saved post feed to load and queue new items on the fly without interrupting ongoing cleanup operations.
@@ -66,7 +66,7 @@ Version 1 is a **UI-driven browser automation script**. It simulates authentic h
 #### Pros & Cons
 
 - **Pros:**
-- Highly visual and easy to audit—you can watch the script open and unsave posts in real time.
+- Highly visual and easy to audit, you can watch the script open and unsave posts in real time.
 - Resilient against internal API structural changes since it relies on front-end UI components.
 
 - **Cons:**
@@ -484,7 +484,7 @@ This repository and its associated scripts are developed strictly for **educatio
 
 ### 2. Terms of Service & Compliance
 
-Automating actions on Instagram—including bulk operations, automated background requests, or session-assisted scraping—may violate [Instagram's Terms of Use](https://help.instagram.com/581066165581870) and [Community Guidelines](https://help.instagram.com/477434105621119). Automated activity can trigger Instagram's anti-bot mechanisms, resulting in temporary action blocks, rate limiting (`HTTP 429 Too Many Requests`), IP bans, or account suspension/termination.
+Automating actions on Instagram, including bulk operations, automated background requests, or session-assisted scraping, may violate [Instagram's Terms of Use](https://help.instagram.com/581066165581870) and [Community Guidelines](https://help.instagram.com/477434105621119). Automated activity can trigger Instagram's anti-bot mechanisms, resulting in temporary action blocks, rate limiting (`HTTP 429 Too Many Requests`), IP bans, or account suspension/termination.
 
 ### 3. Limitation of Liability ("Use at Your Own Risk")
 
