@@ -12,15 +12,15 @@
 
 ## 📑Table of Contents
 
-🧭 1. [**Introduction**]()<br>
-🆚 2. [**Script Versions (V1 vs. V2)**]()<br>
-💻 3. [**Setting Up the Project Locally**]()<br>
-📖 4. [**User Guide**]()<br>
-🏗️ 5. [**Architecture**]()<br>
-⚠️ 6. [**Disclaimer**]()<br>
-👨‍💻 7. [**Author and Contributions**]()<br>
-⚖️ 8. [**MIT License**]()<br>
-❓ 9. [**Frequently Asked Questions (FAQ)**]()<br>
+🧭 1. [**Introduction**](#-1-introduction)<br>
+🆚 2. [**Script Versions (V1 vs. V2)**](#-2-script-versions-v1-vs-v2)<br>
+💻 3. [**Setting Up the Project Locally**](#-3-setting-up-the-project-locally)<br>
+📖 4. [**User Guide**](#-4-user-guide)<br>
+🏗️ 5. [**Architecture**](#️-5-architecture)<br>
+⚠️ 6. [**Disclaimer**](#️-5-architecture)<br>
+👨‍💻 7. [**Author and Contributions**](#-7-author-and-contributions)<br>
+⚖️ 8. [**MIT License**](#️-8-mit-license)<br>
+❓ 9. [**Frequently Asked Questions (FAQ)**](#-9-frequently-asked-questions-faq)<br>
 
 ---
 
